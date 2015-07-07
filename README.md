@@ -15,8 +15,6 @@ Options:
   -o FILE, --outfile=FILE
                         output color coded 3d model, for use with
                         --colorencode
-  -c, --colorencode     Process the model and paints it according to the
-                        attitude of each face, based on Assali 2013.
   -j, --join            joins all resultant data in a single file, instead of
                         a file for each color as default. Recomended if using
                         --eigen option.

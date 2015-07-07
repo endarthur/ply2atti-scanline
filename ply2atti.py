@@ -198,7 +198,7 @@ if __name__ == "__main__":
 	parser = OptionParser(usage="%prog -f input_filename [options] [color1 color2 ... colorN] [-o output_filename]", version="%prog 0.6")
 	parser.add_option("-f", "--file", dest="infile", metavar="FILE", help="input painted 3d model")
 	parser.add_option("-o", "--outfile", dest="outfile", metavar="FILE", help="output color coded 3d model, for use with --colorencode")
-	parser.add_option("-c", "--colorencode", action="store_true", dest="colorencode", help="Process the model and paints it according to the attitude of each face, based on Assali 2013.", default=False)
+	# parser.add_option("-c", "--colorencode", action="store_true", dest="colorencode", help="Process the model and paints it according to the attitude of each face, based on Assali 2013.", default=False)
 	parser.add_option("-j", "--join", action="store_true", dest="join", default=False, help="joins all resultant data in a single file, instead of a file for each color as default. Recomended if using --eigen option.")
 	parser.add_option("-n", "--network", action="store_true", dest="network", help="Outputs each different colored plane, through graph analysis.", default=False)
 	# parser.add_option("-v", "--verbose", action="store_true", dest="verbose", help="outputs detailed information on the data", default=False)
