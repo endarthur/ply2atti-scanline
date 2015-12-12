@@ -41,7 +41,7 @@ Options:
 Virtual scanline analysis system, for use with meshlab point picking tool.
 Usage:
 
-python proc_sline.py file_name
+python scanline.py file_name
 
 Prints to stdout the resultant data.
 ```
