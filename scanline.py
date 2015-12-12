@@ -37,7 +37,7 @@ Prints to stdout the resultant data.
     distances = []
     #last_d = 0.0
     
-    print "dipdir,dip,ponto,local,comprimento,angulo"
+    print "dipdir,dip,point,position,length,angle"
     for point in points:
         a, b, c = [np.array(((float(x.attrib['x']), float(x.attrib['y']), float(x.attrib['z'])))) for x in root.findall("point[@name='%i']" % point)]
         ab = b - a
