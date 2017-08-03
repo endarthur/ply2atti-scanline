@@ -1,5 +1,12 @@
 # ply2atti-scanline
 Scripts for extraction fo attitudes from outcrop 3D models.
+This is a legacy repository for the paper:
+
+Viana, C. D., Endlein, A., da Cruz Campanha, G. A., & Grohmann, C. H. (2016). Algorithms for extraction of structural attitudes from 3D outcrop models. Computers & Geosciences, 90, 112-122.
+
+The new maintaned repositories are:
+
+https://github.com/endarthur/scanline
 
 # Usage
 
